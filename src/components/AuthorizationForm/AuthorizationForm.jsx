@@ -2,7 +2,7 @@ import { useState } from 'react';
 import classes from "./AuthorizationForm.module.scss";
 import Input from '../UI/Input/Input';
 import Button from '../UI/Button/Button';
-import { mockFetch } from '../../api';
+import { mockFetch } from '../../api/api';
 import { passwordValidation, emailValidation } from '../../utils/formFieldsValidation';
 
 const AuthorizationForm = () => {
