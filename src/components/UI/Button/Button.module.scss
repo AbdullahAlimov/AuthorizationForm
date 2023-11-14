@@ -1,0 +1,23 @@
+.button {
+    height: 50px;
+
+    background-color: #fffcf659;
+
+    border-radius: 15px;
+
+    transition: all ease 0.4s;
+
+    font-size: 20px;
+    &:active{
+        background-color: #b5ac9a59;
+    }
+}
+
+@media(min-width:720px){
+    .button:hover{
+        background-color: #fdf4e28f;
+    }
+    .button:active{
+        background-color: #b5ac9a59;
+    }
+}

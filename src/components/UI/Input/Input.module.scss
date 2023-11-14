@@ -1,0 +1,80 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+
+    width: fit-content;
+
+    margin-bottom: 20px;
+}
+
+.title,
+.input,
+.message {
+    grid-column: 1/2;
+}
+
+.title {
+    align-self: flex-start;
+
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.input {
+    width: 350px;
+    height: 40px;
+
+    padding: 0px 10px;
+
+    background-color: #fffcf659 ;
+
+    border: solid 1px #856f5e ;
+    border-radius: 10px;
+
+    transition: all ease 0.4s;
+
+    font-size: 24px;
+
+    &:focus {
+        background-color: #fffcf6a6 ;
+    }
+}
+
+.message {
+    justify-self: end;
+
+    height: 16px;
+}
+
+.changeVisible {
+    align-self: center;
+
+}
+
+@media(min-width:720px) {
+    .input:hover {
+        border: solid 1px #000000;
+    }
+}
+
+@media(max-width:460px) {
+
+    .container,
+    .input {
+        width: 100%;
+    }
+
+    .changeVisible {
+        margin-right: 10px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+}
