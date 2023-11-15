@@ -1,8 +1,30 @@
-# React + Vite
+# AuthorizationForm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ссылка на сайт (GitHub Pages): [AuthorizationForm](https://abdullahalimov.github.io/AuthorizationForm/)
 
-Currently, two official plugins are available:
+Этот проект- дз для курса.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## О проекте
+-Этот проект сделан с заделом на расширение, хотя расширятся не будет, для демонстрации
+-Отправка на сервер замокана возвращает промис и выводит данные формы в консоль
+-Дизайн старался сделать необычным, думаю получилось, а красиво это или нет решать вам.
+-Сделан resesponsive
+
+## Стек технологий
+
+В разработке этой игры были использованы следующие технологии:
+
+### Языки программирования
+
+- **HTML5**
+- **CSS** с использованием препроцессора **SASS**
+- **JavaScript**
+
+### Фреймворк
+
+- **React:** Основной фреймворк для создания интерфейса и управления компонентами.
+
+### Инструменты сборки и развертывания
+
+- **Vite:** Сборщик, обеспечивающий быструю разработку сайта.
+- **gh-pages:** Позволяет развертывать проект на GitHub Pages.
